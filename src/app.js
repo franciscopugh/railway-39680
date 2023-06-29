@@ -13,6 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 await mongoose.connect(process.env.MONGO_URL)
 
+console.log("Hola")
 const swaggerOptions = {
     definition: {
         openapi: '3.0.1',
